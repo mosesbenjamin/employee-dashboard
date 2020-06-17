@@ -27,13 +27,15 @@ body {
 	height: 104px;
 	background-color: #FFFFFF;
 	box-shadow: 0px 4px 12px rgba(163, 163, 163, 0.25);
+	border: 2px solid black;
 	padding-top: 20px;
 	margin-bottom: 20px
 }
 
 .row-style2{
+	border: 2px solid black;
 	width: 1197px;
-	height: 816px;
+	height: 840px;
 	margin-top: 20px;
 	background-color: #FFFFFF;
 	box-shadow: 0px 4px 12px rgba(163, 163, 163, 0.25);
