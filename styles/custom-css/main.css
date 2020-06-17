@@ -35,9 +35,19 @@ body {
 	width: 1197px;
 	height: 840px;
 	margin-top: 20px;
-	background-color: #FFFFFF;
+	background-color: #E5E5E5;
+	border: 2px solid black;
 	box-shadow: 0px 4px 12px rgba(163, 163, 163, 0.25);
 
+}
+
+.row-style3{
+	width: 1197px;
+	height: 840px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	border: 2px solid black;
+	box-shadow: 0px 4px 12px rgba(163, 163, 163, 0.25);
 }
 
 .paragraph {
