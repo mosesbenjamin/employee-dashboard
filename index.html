@@ -8,7 +8,7 @@
 <body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-2 column-one">
+				<div class="col-xs-2 column-one">
 					<ul>
 						<li class="anchor"><p class="paragraph">Talent <img src="./img/logo-icon.png"> Pool</p></li><hr style="background-color: white">
 						<li><a href="#" class="anchor">Dashboard</a></li>
@@ -18,64 +18,92 @@
 						<li><a href="#" class="anchor">Settings</a></li>
 					</ul>
 				</div>
-				<div class="container-fluid col-md-10 column-two">
+				<div class="container-fluid col-xs-10 column-two">
 					<div class="row">
-						<div class="col-md-12 row-style1">
-							Item1
-							Item2
-							Item3
-							Item4
+						<div class="row-style1">
+							<ul class="menu-items">
+								<li><a href="#" ><img src="./img/Rectangle 83.png"></a></li>
+								<li><a href="#"><img src="./img/Rectangle 83.png"></a></li>
+								<li><a href="#"><img src="./img/Rectangle 85.png"></a></li>
+								<li class="nav-item dropdown">
+							        <a class="nav-link dropdown-toggle size1" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							            John Doe
+							        </a>
+							    </li>    
+							</ul>
 						</div>
 					</div>
 					<h3>Settings</h3>
 					<div class="row">
-						<div class="col-md-4 row-style2">
-								<table class="table table-bordered">
-									<tr style="background-color: white;">
-										<td><img src="./img/settings-icon.png" style="padding-right: 15px;">General</td>
-									</tr>
-									<tr>
-										<td><img src="./img/appearance-icon.png" style="padding-right: 15px;">Appearance</td>
-									</tr>
-									<tr>
-										<td><img src="./img/notification 1.png" style="padding-right: 15px;">Notification</td>
-									</tr>
-									<tr>
-										<td><img src="./img/contact-us 1.png" style="padding-right: 15px;">Contact Us</td>
-									</tr>
-									<tr>
-										<td><img src="./img/login 1.png" style="padding-right: 15px;">My Privacy</td>
-									</tr>
-									<tr>
-										<td><img src="./img/technical-support 1.png" style="padding-right: 15px;">Report Abuse</td>
-									</tr>
-									</table>
-							</div>
-							<div class="col-md-8 row-style3">
-								<table class="table">
-									<tr style="background-color: white;">
-										<td style="padding-left: 15px;">General</td>
-									</tr>
-									<tr>
-										<td>Profile</td>
-									</tr>
-									<tr>
-										<td>Account Preferences</td>
-									</tr>
-									<tr>
-										<td>Login and Security</td>
-									</tr>
-									<tr>
-										<td>Accessibility</td>
-									</tr>
-									</table>
-							</div>
+					<div class="tab">
+					  <button class="tablinks size header" style="background-color: white" onclick="openCity(event, 'General')">
+					  	<img src="./img/settings-icon.png " class="img-padding">General
+					  </button>
+					  <button class="tablinks size" onclick="openCity(event, 'Appearance')">
+					  	<img src="./img/appearance-icon.png" class="img-padding">Appearance<hr>
+					  </button>
+					  <button class="tablinks size" onclick="openCity(event, 'Notification')">
+					  	<img src="./img/notification 1.png" class="img-padding">Notification<hr>
+					  </button>
+					  <button class="tablinks size" onclick="openCity(event, 'Contact Us')">
+					  	<img src="./img/contact-us 1.png" class="img-padding">Contact Us<hr>
+					  </button>
+					  <button class="tablinks size" onclick="openCity(event, 'My Privacy')">
+					  	<img src="./img/login 1.png" class="img-padding">My Privacy<hr>
+					  </button>
+					  <button class="tablinks size" onclick="openCity(event, 'Report Abuse')">
+					  	<img src="./img/technical-support 1.png" class="img-padding">Report Abuse<hr>
+					  </button>
+					</div>
+
+					<div id="General" class="tabcontent header">
+						<div>
+							<p class="size" style="padding-top: 25px;">General</p>
+						</div>
+					  	<table class="table" style="margin-top: 15px;">
+							<tr>
+								<td class="size">
+									<a href="#">
+										<img src="./img/arrow-icon.png" class="img-padding position">Profile
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="size">
+									<a href="#">
+										<img src="./img/arrow-icon.png" class="img-padding position">Account preferences
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="size">
+									<a href="#">
+										<img src="./img/arrow-icon.png" class="img-padding position">Login & Security
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="size">
+									<a href="">
+										<img src="./img/arrow-icon.png" class="img-padding position">My Accessibility
+									</a>
+								</td>
+							</tr>
+						</table>
+						<div style="padding: 400px 30px 0 0;">
+							<button class="btn btn-primary btn-lg save-button">
+								Save Changes
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
 
+	<!-- Custom js -->
+	<script type="text/javascript" src="./js/custom-js/main.js"></script>
 	<script type="text/javascript" src="../js/bootstrap-js/bootstrap.js"></script>		
 	<script type="text/javascript" src="../js/bootstrap-js/jquery.js"></script>
 	<script type="text/javascript" src="../js/bootstrap-js/popper.js"></script>
