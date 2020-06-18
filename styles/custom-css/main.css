@@ -14,17 +14,16 @@ a:hover {
 	box-sizing: border-box
 }
 
-.column-one{
+@media (min-width: 800px){
+	.column-one{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		width: 100px;
+		width: 243px;
 		height: 1024px;
 		background: #084482;
 }
-
-
-.row-style1{
+	.row-style1{
 	display: flex;
 	justify-content: flex-end;
 	left: 0;
@@ -38,7 +37,6 @@ a:hover {
 	padding-top: 20px;
 	margin-bottom: 20px
 }
-
 .row-style2{
 	width: 1197px;
 	height: 840px;
@@ -57,7 +55,6 @@ a:hover {
 	border: 2px solid black;
 	box-shadow: 0px 4px 12px rgba(163, 163, 163, 0.25);
 }
-
 .paragraph {
 	font-size: 20px;
 	padding-top: 30px;
@@ -67,6 +64,26 @@ a:hover {
 	color:white;
 }
 
+.size {
+	font-size: 20px;
+}
+
+.img-padding{
+	padding-right: 15px;
+}
+
+.header{
+	color:#084482;
+}
+
+}
+
+
+.column-one{
+	font-size: 25px;
+	background: #084482;
+	margin-bottom: 12px;
+}
 .menu-items {
 	display: flex;
 
@@ -77,15 +94,6 @@ ul {
 	list-style-type: none;
 }
 
-
-.size {
-	font-size: 20px;
-}
-
-.img-padding{
-	padding-right: 15px;
-}
-
 .position {
 	float: right;
 }
@@ -93,11 +101,6 @@ ul {
 .save-button {
 	float: right;
 }
-
-.header{
-	color:#084482;
-}
-
 
 /* The tab */
 .tab {
